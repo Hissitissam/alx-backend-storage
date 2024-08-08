@@ -1,5 +1,4 @@
--- Creates a table with unique users.
---If the table already exists, your script should not fail
+-- Creates a table with unique attributes
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
